@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>FORMULAIRE</title>
+  </head>
+  <body>
+    <header>
+      <!--Mon Logo-->
+      <div class="mon-header">
+        <div class="mon-logo">
+          <a href="index.html" class="logo-orinoco">
+            <img
+              src="/JWDP5-master/images/logoOrinoco.png"
+              alt="logo"
+              style="width: 170px"
+            />
+          </a>
+        </div>
+        <div class="pannier">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="commande">
+        <h1>Finalisation de votre Commande</h1>
+        <h2>Votre Panier :</h2>
+      </div>
+      <div id="mon_pannier">
+        <!--<div id="image-pannier">
+              <img id="img-pan" src="">
+            </div>
+              <div id="info-pannier">
+                <p id="nom-pannier"> description : </p>
+                <p id="prix-pannier">Prix Unitaire : </p>
+                <p id="couleur-pannier">Couleur : </p>
+                <p id="quantite-pannier">Quantité : </p>
+                <p id="prix-total-pannier">Prix Total : </p>
+                
+              </div> -->
+
+        <!-- <button id="suppressionPannier">Supprimer</button> -->
+      </div>
+      <div id="affichage-prix-total" class="affichage-prix-total"></div>
+      <div id="panier-vide">
+        <img
+          src="/JWDP5-master/images/empty_cart.png"
+          alt="panier vide"
+          hidden
+        />
+      </div>
+
+      <span id="id"></span>
+      <div class="mon-h-trois">
+        <h3>Mes cordonnées :</h3>
+      </div>
+
+      <div id="tableau-formulaire" class="tableau-formulaire">
+        <form class="formulaire">
+          <p>
+            <label for="firstname">Prénom :</label>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="Taper votre Prénom"
+              required
+            />
+          </p>
+          <p>
+            <label for="lastname">Nom :</label>
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Taper votre Nom"
+              required
+            />
+          </p>
+          <p>
+            <label for="adresse">Adresse :</label>
+            <input
+              type="text"
+              name="adresse"
+              id="adresse"
+              placeholder="Taper votre Adresse"
+              required
+            />
+          </p>
+          <p>
+            <label for="city">Ville :</label>
+            <input
+              type="text"
+              name="city"
+              id="city"
+              placeholder="Taper la Ville"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">E mail :</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Taper votre E-mai"
+              required
+            />
+          </p>
+          <p>
+            <input type="hidden" name="product" id="product" value="#" />
+            <!-- <a href="confirmation.html"> -->
+            <button type="submit" id="btn-carte" class="btn-carte">
+              Validez
+            </button>
+            <!-- </a> -->
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="mon-footer">
+        <p>Mention Legales</p>
+        <div class="footer-reseau-social">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/0a05e1bf5c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="/frontend/js/formulaire.js"></script>
+  </body>
+</html>

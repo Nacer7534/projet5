@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>PRODUIT</title>
+</head>
+<body>
+    <header>
+      
+        <!--Mon Logo-->
+        <div class="mon-header">
+          <div class="mon-logo">
+              <a href="index.html">
+            <img src="/JWDP5-master/images/logoOrinoco.png" alt="logo" style="width: 170px"/>
+          </a>
+          </div>
+          <a href="formulaire.html" >
+              <div class="pannier">
+                <i class="fas fa-shopping-cart"></i> 
+          </a>
+          </div>
+        </div>
+      </header>
+      
+
+      <section>
+        
+        <div id=product class="product">
+            
+            <div id="image-product" class="image-product">
+                <img id="img-product" src="" alt="tedy">
+            </div>
+            <div id="information-product" class="information-product">
+                <h3 id="nom-product"></h3>
+                <h4 id="prix-product"></h4>
+                <p id="description-product"></p>
+
+                
+                   <span id="choisir-couleur">Choisir couleur</span>
+                <select name="color" id="color">   
+                   <!-- <option value="rouge">rouge</option> 
+                   <option value="vert">vert</option> 
+                   <option value="bleu">bleu</option> -->
+                   <!-- <label for="quantite">quantite</label>  -->
+                </select>
+                  <button id="envoyerPannier">Ajouter au Pannier</button>
+                  <a href="index.html" class="vers-ma-page-accueil">
+                 <button id="retour-accueil">Retour mes Achats</button>
+                 </a>
+              
+            </div>
+            
+        </div>
+      </section>
+
+      <footer>
+        <div class="mon-footer">
+          <p>Mention Legales</p>
+          <div class="footer-reseau-social">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </footer>
+
+      <script
+      src="https://kit.fontawesome.com/0a05e1bf5c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="/frontend/js/produit.js"></script>
+    
+</body>
+</html>
